@@ -2,14 +2,14 @@ import pygame
 import sys
 import random
 import time
-from __builtin__ import str
+from builtins import str
 
 check_err=pygame.init()
 if check_err[1]>0:
-    print "{0} error occured".format(check_err[0])
+    print("{0} error occured".format(check_err[0]))
     sys.exit(-1)
 else:
-    print "sucessful"
+    print("sucessful")
 
 # play Surface
 x=1000
